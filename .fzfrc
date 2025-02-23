@@ -1,0 +1,10 @@
+# Nord fzf theme
+# Preview permalink:
+# https://vitormv.github.io/fzf-themes#eyJib3JkZXJTdHlsZSI6Im5vbmUiLCJib3JkZXJMYWJlbCI6IiIsImJvcmRlckxhYmVsUG9zaXRpb24iOjAsInByZXZpZXdCb3JkZXJTdHlsZSI6InNoYXJwIiwicGFkZGluZyI6IjAiLCJtYXJnaW4iOiIwIiwicHJvbXB0IjoiPiAiLCJtYXJrZXIiOiLilogiLCJwb2ludGVyIjoi4paIIiwic2VwYXJhdG9yIjoi4pSAIiwic2Nyb2xsYmFyIjoi4pSCIiwibGF5b3V0IjoiZGVmYXVsdCIsImluZm8iOiJkZWZhdWx0IiwiY29sb3JzIjoiZmc6I2Q4ZGVlOSxmZys6IzQzNGM1ZSxiZzojMmUzNDQwLGJnKzojZDhkZWU5LGhsOiM2MTZlODgsaGwrOiNiZjYxNmEsaW5mbzojODFhMWMxLG1hcmtlcjojOGZiY2JiLHByb21wdDojODFhMWMxLHNwaW5uZXI6IzhmYmNiYixwb2ludGVyOiNiZjYxNmEsaGVhZGVyOiM1ZTgxYWMsZ3V0dGVyOiMzYjQyNTIsYm9yZGVyOiMzYjQyNTIsbGFiZWw6IzVlODFhYyxxdWVyeTojZDhkZWU5In0=
+export FZF_DEFAULT_OPTS='
+  --color=fg:#d8dee9,fg+:#434c5e,bg:#2e3440,bg+:#d8dee9
+  --color=hl:#616e88,hl+:#bf616a,info:#81a1c1,marker:#8fbcbb
+  --color=prompt:#81a1c1,spinner:#8fbcbb,pointer:#bf616a,header:#5e81ac
+  --color=gutter:#3b4252,border:#3b4252,label:#5e81ac,query:#d8dee9
+  --preview-window="border-sharp" --prompt="> " --marker="█" --pointer="█"
+  --separator="─" --scrollbar="│"'
