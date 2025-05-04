@@ -1,10 +1,15 @@
 # Nord fzf theme
 # Preview permalink:
-# https://vitormv.github.io/fzf-themes#eyJib3JkZXJTdHlsZSI6Im5vbmUiLCJib3JkZXJMYWJlbCI6IiIsImJvcmRlckxhYmVsUG9zaXRpb24iOjAsInByZXZpZXdCb3JkZXJTdHlsZSI6InNoYXJwIiwicGFkZGluZyI6IjAiLCJtYXJnaW4iOiIwIiwicHJvbXB0IjoiPiAiLCJtYXJrZXIiOiLilogiLCJwb2ludGVyIjoi4paIIiwic2VwYXJhdG9yIjoi4pSAIiwic2Nyb2xsYmFyIjoi4pSCIiwibGF5b3V0IjoiZGVmYXVsdCIsImluZm8iOiJkZWZhdWx0IiwiY29sb3JzIjoiZmc6I2Q4ZGVlOSxmZys6IzQzNGM1ZSxiZzojMmUzNDQwLGJnKzojZDhkZWU5LGhsOiM2MTZlODgsaGwrOiNiZjYxNmEsaW5mbzojODFhMWMxLG1hcmtlcjojOGZiY2JiLHByb21wdDojODFhMWMxLHNwaW5uZXI6IzhmYmNiYixwb2ludGVyOiNiZjYxNmEsaGVhZGVyOiM1ZTgxYWMsZ3V0dGVyOiMzYjQyNTIsYm9yZGVyOiMzYjQyNTIsbGFiZWw6IzVlODFhYyxxdWVyeTojZDhkZWU5In0=
+# https://vitormv.github.io/fzf-themes#eyJib3JkZXJTdHlsZSI6Im5vbmUiLCJib3JkZXJMYWJlbCI6IiIsImJvcmRlckxhYmVsUG9zaXRpb24iOjAsInByZXZpZXdCb3JkZXJTdHlsZSI6InNoYXJwIiwicGFkZGluZyI6IjAiLCJtYXJnaW4iOiIwIiwicHJvbXB0IjoiPiAiLCJtYXJrZXIiOiLilogiLCJwb2ludGVyIjoi4paIIiwic2VwYXJhdG9yIjoi4pSAIiwic2Nyb2xsYmFyIjoi4pSCIiwibGF5b3V0IjoiZGVmYXVsdCIsImluZm8iOiJkZWZhdWx0IiwiY29sb3JzIjoiZmcrOiNkOGRlZTksYmcrOiMzYjQyNTIsaGw6IzYxNmU4OCxobCs6IzhmYmNiYixpbmZvOiM4MWExYzEsbWFya2VyOiM4MWExYzEscHJvbXB0OiM4MWExYzEsc3Bpbm5lcjojOGZiY2JiLHBvaW50ZXI6IzYxNmU4OCxoZWFkZXI6IzVlODFhYyxndXR0ZXI6IzNiNDI1Mixib3JkZXI6IzNiNDI1MixsYWJlbDojNWU4MWFjLHF1ZXJ5OiNkOGRlZTkifQ==
+# This version uses the terminal background & foreground colors (set to -1)
 export FZF_DEFAULT_OPTS='
-  --color=fg:#d8dee9,fg+:#434c5e,bg:#2e3440,bg+:#d8dee9
-  --color=hl:#616e88,hl+:#bf616a,info:#81a1c1,marker:#8fbcbb
-  --color=prompt:#81a1c1,spinner:#8fbcbb,pointer:#bf616a,header:#5e81ac
+  --color=fg:-1,fg+:#d8dee9,bg:-1,bg+:#3b4252
+  --color=hl:#616e88,hl+:#8fbcbb,info:#81a1c1,marker:#81a1c1
+  --color=prompt:#81a1c1,spinner:#8fbcbb,pointer:#616e88,header:#5e81ac
   --color=gutter:#3b4252,border:#3b4252,label:#5e81ac,query:#d8dee9
   --preview-window="border-sharp" --prompt="> " --marker="█" --pointer="█"
   --separator="─" --scrollbar="│"'
+
+# Keep the foreground and background hex codes (helpful for referencing on website)
+# https://vitormv.github.io/fzf-themes#eyJib3JkZXJTdHlsZSI6Im5vbmUiLCJib3JkZXJMYWJlbCI6IiIsImJvcmRlckxhYmVsUG9zaXRpb24iOjAsInByZXZpZXdCb3JkZXJTdHlsZSI6InNoYXJwIiwicGFkZGluZyI6IjAiLCJtYXJnaW4iOiIwIiwicHJvbXB0IjoiPiAiLCJtYXJrZXIiOiLilogiLCJwb2ludGVyIjoi4paIIiwic2VwYXJhdG9yIjoi4pSAIiwic2Nyb2xsYmFyIjoi4pSCIiwibGF5b3V0IjoiZGVmYXVsdCIsImluZm8iOiJkZWZhdWx0IiwiY29sb3JzIjoiZmc6I2Q4ZGVlOSxmZys6I2Q4ZGVlOSxiZzojMmUzNDQwLGJnKzojM2I0MjUyLGhsOiM2MTZlODgsaGwrOiM4ZmJjYmIsaW5mbzojODFhMWMxLG1hcmtlcjojODFhMWMxLHByb21wdDojODFhMWMxLHNwaW5uZXI6IzhmYmNiYixwb2ludGVyOiM2MTZlODgsaGVhZGVyOiM1ZTgxYWMsZ3V0dGVyOiMzYjQyNTIsYm9yZGVyOiMzYjQyNTIsbGFiZWw6IzVlODFhYyxxdWVyeTojZDhkZWU5In0=
+# --color=fg:#d8dee9,fg+:#d8dee9,bg:#2e3440,bg+:#3b4252
